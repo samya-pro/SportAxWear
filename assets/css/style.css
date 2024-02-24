@@ -7949,3 +7949,17 @@ del {
 }
 
 /*# sourceMappingURL=style.css.map */
+
+/* Added: language */
+.language-button {
+  color: #000;
+  background-color: white;
+  border: 1px solid black;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.language-button.selected {
+  background-color: red;
+  color: white;
+}

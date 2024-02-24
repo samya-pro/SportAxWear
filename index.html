@@ -81,7 +81,9 @@
     </div>
     <!-- Header End -->
 </header>
-<main>
+
+
+<main id="frenchContent" class="language-content active">
     <!--? slider Area Start-->
     <div class="slider-area position-relative">
         <div class="slider-active">
@@ -91,10 +93,14 @@
                     <div class="row">
                         <div class="col-xl-9 col-lg-9 col-md-10">
                             <div class="hero__caption">
+                                <div>
+                                    <button id="frButton" class="language-button selected" onclick="switchToLanguage('fr')">FR</button>
+                                    <button id="enButton" class="language-button" onclick="switchToLanguage('en')">EN</button>
+                                </div>
                                 <span data-animation="fadeInLeft" data-delay="0.1s">Sport Ax Wear</span><br>
-                                <h2 data-animation="fadeInLeft" data-delay="0.1s">Distributeur Officiel 20x22</h2>
+                                <h2 id="hero-subtitle-js" data-animation="fadeInLeft" data-delay="0.1s">Distributeur Officiel 20x22</h2>
                                 <h1 data-animation="fadeInLeft" data-delay="0.4s">Feel The Glory</h1>
-                                <a href="gallery.html" class="border-btn hero-btn" data-animation="fadeInLeft" data-delay="0.8s">Visiter la gallerie</a>
+                                <a href="gallery.html" id="hero-button-js" class="border-btn hero-btn" data-animation="fadeInLeft" data-delay="0.8s">Visiter la gallerie</a>
                             </div>
                         </div>
                     </div>
@@ -608,6 +614,7 @@
         </div>
     </section>
 </main>
+
 <footer>
     <!--? Footer Start-->
     <div class="footer-area black-bg">
@@ -714,6 +721,8 @@
 <!-- Jquery Plugins, main Jquery -->	
 <script src="./assets/js/plugins.js"></script>
 <script src="./assets/js/main.js"></script>
+
+<script src="language.js"></script>
 
 </body>
 </html>
