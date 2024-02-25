@@ -51,11 +51,11 @@
                         <div class="main-menu f-right d-none d-lg-block">
                             <nav>
                                 <ul id="navigation">
-                                    <li><a href="index.html">Accueil</a></li>
-                                    <li><a href="about.html">À propos</a></li>
-                                    <li><a href="services.html">Services</a></li>
-                                    <li><a href="partenaires.html">Partenaires</a></li>
-                                    <li><a href="gallery.html">Gallerie</a></li>
+                                    <li><a href="index.html" id="index-accueil-js">Acceuil</a></li>
+                                    <li><a href="about.html" id="index-apropos-js">À propos</a></li>
+                                    <li><a href="services.html" id="index-services-js">Services</a></li>
+                                    <li><a href="partenaires.html" id="index-partenaires-js">Partenaires</a></li>
+                                    <li><a href="gallery.html" id="index-gallerie-js">Gallerie</a></li>
                                     <!--<li><a href="blog.html">Blog</a>
                                         <ul class="submenu">
                                             <li><a href="blog.html">Blog</a></li>
@@ -63,13 +63,13 @@
                                             <li><a href="elements.html">Elements</a></li>
                                         </ul>
                                     </li>-->
-                                    <li><a href="contact.html">Contact</a></li>
+                                    <li><a href="contact.html" id="index-contact-js">Contact</a></li>
                                 </ul>
                             </nav>
                         </div>          
                         <!-- Header-btn -->
                         <div class="header-btns d-none d-lg-block f-right">
-                           <a href="contact.html" class="btn">Contactez-nous</a>
+                           <a href="contact.html" class="btn" id="index-contactn-js">Contactez-nous</a>
                        </div>
                        <!-- Mobile Menu -->
                        <div class="col-12">
@@ -89,8 +89,12 @@
                 <div class="row">
                     <div class="col-xl-12">
                         <div class="hero-cap hero-cap2 pt-70">
+                            <div>
+                                <button id="frButton" class="language-button selected" onclick="switchToLanguage('fr')">FR</button>
+                                <button id="enButton" class="language-button" onclick="switchToLanguage('en')">EN</button>
+                            </div>
                             <h2>Sport Ax Wear</h2>
-                            <span>Distributeur Officiel 20x22</span>
+                            <span id="index-subtitle-js">Distributeur Officiel 20x22</span>
                         </div>
                     </div>
                 </div>
@@ -113,14 +117,14 @@
                 <!-- section tittle -->
                 <div class="section-tittle2 mb-20 wow fadeInUp" data-wow-duration="1s" data-wow-delay=".3s">
                     <div class="front-text">
-                        <h2 class="">À Propos</h2>
-                        <p>Sport Ax Wear est fier de servir en tant que distributeur officiel de la marque renommée 20x22. 
+                        <h2 class="" id="index-apropos2-js">À Propos</h2>
+                        <p id="index-apropost1-js">Sport Ax Wear est fier de servir en tant que distributeur officiel de la marque renommée 20x22. 
                             Avec un engagement envers la qualité et le style, nous vous proposons une sélection soigneusement 
                             choisie de vêtements de sport qui allie innovation et performance.</p>
-                        <p class="mb-40">De la tenue de sport haute 
+                        <p class="mb-40" id="index-apropost2-js">De la tenue de sport haute 
                             performance aux pièces décontractées élégantes, notre collection incarne l'esprit de l'athlétisme 
                             et de la mode, garantissant que vous puissiez performer au mieux, que ce soit sur le terrain ou en dehors.</p>
-                        <a href="contact.html" class="border-btn">Contactez-nous</a>
+                        <a href="contact.html" class="border-btn" id="index-aproposb-js">Contactez-nous</a>
                     </div>
                 </div>
             </div>
@@ -149,7 +153,7 @@
                             <img src="assets/img/icon/icon1.png" alt="">
                         </div>
                         <div class="features-caption">
-                            <h3>Addresse</h3>
+                            <h3 id="index-addresse-js">Addresse</h3>
                             <p>14 Rue de Pékin<br>El Mouradia 16000, ALGER </p>
                         </div>
                     </div>
@@ -160,7 +164,7 @@
                             <img src="assets/img/icon/phone.png" alt="">
                         </div>
                         <div class="features-caption">
-                            <h3>Téléphone</h3>
+                            <h3 id="index-telephone-js">Téléphone</h3>
                             <p>06 97 697 588</p>
                             <p></p>
                         </div>
@@ -172,7 +176,7 @@
                             <img src="assets/img/icon/email.png" alt="">
                         </div>
                         <div class="features-caption">
-                            <h3>Email</h3>
+                            <h3 id="index-email-js">Email</h3>
                             <p>sportaxwear@gmail.com</p>
                             <p></p>
                         </div>
@@ -182,6 +186,7 @@
         </div>
     </section>
 </main>
+
 <footer>
     <!--? Footer Start-->
     <div class="footer-area black-bg">
@@ -204,12 +209,12 @@
                                         <div class="main-menu main-menu2 text-center">
                                             <nav>
                                                 <ul>
-                                                    <li><a href="index.html">Accueil</a></li>
-                                                    <li><a href="about.html">À propos</a></li>
-                                                    <li><a href="services.html">Services</a></li>
-                                                    <li><a href="partenaires.html">Partenaires</a></li>
-                                                    <li><a href="gallery.html">Gallerie</a></li>
-                                                    <li><a href="contact.html">Contact</a></li>
+                                                    <li><a href="index.html" id="index-accueilf-js">Accueil</a></li>
+                                                    <li><a href="about.html" id="index-aproposf-js">À propos</a></li>
+                                                    <li><a href="courses.html" id="index-servicesf-js">Services</a></li>
+                                                    <li><a href="partenaires.html" id="index-partenairesf-js">Partenaires</a></li>
+                                                    <li><a href="gallery.html" id="index-gallerief-js">Gallerie</a></li>
+                                                    <li><a href="contact.html" id="index-contactf-js">Contact</a></li>
                                                 </ul>
                                             </nav>
                                         </div>   
@@ -233,7 +238,7 @@
                     <div class="col-lg-12">
                         <div class="footer-copy-right text-center">
                             <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                              Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved </a>
+                              Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved
                               <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
                           </div>
                       </div>
@@ -288,6 +293,8 @@
 <!-- Jquery Plugins, main Jquery -->	
 <script src="./assets/js/plugins.js"></script>
 <script src="./assets/js/main.js"></script>
+
+<script src="assets/js/language/language-about.js"></script>
 
 </body>
 </html>

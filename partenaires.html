@@ -51,11 +51,11 @@
                         <div class="main-menu f-right d-none d-lg-block">
                             <nav>
                                 <ul id="navigation">
-                                    <li><a href="index.html">Accueil</a></li>
-                                    <li><a href="about.html">À propos</a></li>
-                                    <li><a href="services.html">Services</a></li>
-                                    <li><a href="partenaires.html">Partenaires</a></li>
-                                    <li><a href="gallery.html">Gallerie</a></li>
+                                    <li><a href="index.html" id="index-accueil-js">Acceuil</a></li>
+                                    <li><a href="about.html" id="index-apropos-js">À propos</a></li>
+                                    <li><a href="services.html" id="index-services-js">Services</a></li>
+                                    <li><a href="partenaires.html" id="index-partenaires-js">Partenaires</a></li>
+                                    <li><a href="gallery.html" id="index-gallerie-js">Gallerie</a></li>
                                     <!--<li><a href="blog.html">Blog</a>
                                         <ul class="submenu">
                                             <li><a href="blog.html">Blog</a></li>
@@ -63,13 +63,13 @@
                                             <li><a href="elements.html">Elements</a></li>
                                         </ul>
                                     </li>-->
-                                    <li><a href="contact.html">Contact</a></li>
+                                    <li><a href="contact.html" id="index-contact-js">Contact</a></li>
                                 </ul>
                             </nav>
                         </div>          
                         <!-- Header-btn -->
                         <div class="header-btns d-none d-lg-block f-right">
-                           <a href="contact.html" class="btn">Contactez-nous</a>
+                           <a href="contact.html" class="btn" id="index-contactn-js">Contactez-nous</a>
                        </div>
                        <!-- Mobile Menu -->
                        <div class="col-12">
@@ -89,8 +89,12 @@
                 <div class="row">
                     <div class="col-xl-12">
                         <div class="hero-cap hero-cap2 pt-70">
+                            <div>
+                                <button id="frButton" class="language-button selected" onclick="switchToLanguage('fr')">FR</button>
+                                <button id="enButton" class="language-button" onclick="switchToLanguage('en')">EN</button>
+                            </div>
                             <h2>Sport Ax Wear</h2>
-                            <span>Distributeur Officiel 20x22</span>
+                            <span id="index-subtitle-js">Distributeur Officiel 20x22</span>
                         </div>
                     </div>
                 </div>
@@ -105,7 +109,7 @@
             <div class="row justify-content-center">
                 <div class="col-lg-7 col-md-9 col-sm-10">
                     <div class="section-tittle text-center mb-100 wow fadeInUp" data-wow-duration="2s" data-wow-delay=".2s">
-                        <h2>Partenaires</h2>
+                        <h2 id="index-partenaires2-js">Partenaires</h2>
                     </div>
                 </div>
             </div>
@@ -118,7 +122,7 @@
                             </div>
                             <div class="blog-cap">
                                 <span>Badminton</span>
-                                <h3><a href="partenaires.html">Équipe Nationale de Badminton, Algérie</a></h3>
+                                <h3><a href="partenaires.html" id="index-badmin-js">Équipe Nationale de Badminton, Algérie</a></h3>
                             </div>
                         </div>
                     </div>
@@ -131,7 +135,7 @@
                             </div>
                             <div class="blog-cap">
                                 <span>Handball</span>
-                                <h3><a href="partenaires.html">CSACSB Bir Mourad Raïs</a></h3>
+                                <h3><a href="partenaires.html" id="index-csacsb-js">CSACSB Bir Mourad Raïs</a></h3>
                             </div>
                         </div>
                     </div>
@@ -150,7 +154,7 @@
                             <img src="assets/img/icon/icon1.png" alt="">
                         </div>
                         <div class="features-caption">
-                            <h3>Addresse</h3>
+                            <h3 id="index-addresse-js">Addresse</h3>
                             <p>14 Rue de Pékin<br>El Mouradia 16000, ALGER </p>
                         </div>
                     </div>
@@ -161,7 +165,7 @@
                             <img src="assets/img/icon/phone.png" alt="">
                         </div>
                         <div class="features-caption">
-                            <h3>Téléphone</h3>
+                            <h3 id="index-telephone-js">Téléphone</h3>
                             <p>06 97 697 588</p>
                             <p></p>
                         </div>
@@ -173,7 +177,7 @@
                             <img src="assets/img/icon/email.png" alt="">
                         </div>
                         <div class="features-caption">
-                            <h3>Email</h3>
+                            <h3 id="index-email-js">Email</h3>
                             <p>sportaxwear@gmail.com</p>
                             <p></p>
                         </div>
@@ -183,6 +187,7 @@
         </div>
     </section>
 </main>
+
 <footer>
     <!--? Footer Start-->
     <div class="footer-area black-bg">
@@ -205,12 +210,12 @@
                                         <div class="main-menu main-menu2 text-center">
                                             <nav>
                                                 <ul>
-                                                    <li><a href="index.html">Accueil</a></li>
-                                                    <li><a href="about.html">À propos</a></li>
-                                                    <li><a href="services.html">Services</a></li>
-                                                    <li><a href="partenaires.html">Partenaires</a></li>
-                                                    <li><a href="gallery.html">Gallerie</a></li>
-                                                    <li><a href="contact.html">Contact</a></li>
+                                                    <li><a href="index.html" id="index-accueilf-js">Accueil</a></li>
+                                                    <li><a href="about.html" id="index-aproposf-js">À propos</a></li>
+                                                    <li><a href="courses.html" id="index-servicesf-js">Services</a></li>
+                                                    <li><a href="partenaires.html" id="index-partenairesf-js">Partenaires</a></li>
+                                                    <li><a href="gallery.html" id="index-gallerief-js">Gallerie</a></li>
+                                                    <li><a href="contact.html" id="index-contactf-js">Contact</a></li>
                                                 </ul>
                                             </nav>
                                         </div>   
@@ -234,7 +239,7 @@
                     <div class="col-lg-12">
                         <div class="footer-copy-right text-center">
                             <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-                              Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved </a>
+                              Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved
                               <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
                           </div>
                       </div>
@@ -247,48 +252,50 @@
   <!-- Scroll Up -->
   <div id="back-top" >
     <a title="Go to Top" href="#"> <i class="fas fa-level-up-alt"></i></a>
-  </div>
+</div>
 
-    <!-- JS here -->
+<!-- JS here -->
 
-    <script src="./assets/js/vendor/modernizr-3.5.0.min.js"></script>
-    <!-- Jquery, Popper, Bootstrap -->
-    <script src="./assets/js/vendor/jquery-1.12.4.min.js"></script>
-    <script src="./assets/js/popper.min.js"></script>
-    <script src="./assets/js/bootstrap.min.js"></script>
-    <!-- Jquery Mobile Menu -->
-    <script src="./assets/js/jquery.slicknav.min.js"></script>
+<script src="./assets/js/vendor/modernizr-3.5.0.min.js"></script>
+<!-- Jquery, Popper, Bootstrap -->
+<script src="./assets/js/vendor/jquery-1.12.4.min.js"></script>
+<script src="./assets/js/popper.min.js"></script>
+<script src="./assets/js/bootstrap.min.js"></script>
+<!-- Jquery Mobile Menu -->
+<script src="./assets/js/jquery.slicknav.min.js"></script>
 
-    <!-- Jquery Slick , Owl-Carousel Plugins -->
-    <script src="./assets/js/owl.carousel.min.js"></script>
-    <script src="./assets/js/slick.min.js"></script>
-    <!-- One Page, Animated-HeadLin -->
-    <script src="./assets/js/wow.min.js"></script>
-    <script src="./assets/js/animated.headline.js"></script>
-    <script src="./assets/js/jquery.magnific-popup.js"></script>
+<!-- Jquery Slick , Owl-Carousel Plugins -->
+<script src="./assets/js/owl.carousel.min.js"></script>
+<script src="./assets/js/slick.min.js"></script>
+<!-- One Page, Animated-HeadLin -->
+<script src="./assets/js/wow.min.js"></script>
+<script src="./assets/js/animated.headline.js"></script>
+<script src="./assets/js/jquery.magnific-popup.js"></script>
 
-    <!-- Date Picker -->
-    <script src="./assets/js/gijgo.min.js"></script>
-    <!-- Nice-select, sticky -->
-    <script src="./assets/js/jquery.nice-select.min.js"></script>
-    <script src="./assets/js/jquery.sticky.js"></script>
+<!-- Date Picker -->
+<script src="./assets/js/gijgo.min.js"></script>
+<!-- Nice-select, sticky -->
+<script src="./assets/js/jquery.nice-select.min.js"></script>
+<script src="./assets/js/jquery.sticky.js"></script>
 
-    <!-- counter , waypoint,Hover Direction -->
-    <script src="./assets/js/jquery.counterup.min.js"></script>
-    <script src="./assets/js/waypoints.min.js"></script>
-    <script src="./assets/js/jquery.countdown.min.js"></script>
-    <script src="./assets/js/hover-direction-snake.min.js"></script>
+<!-- counter , waypoint,Hover Direction -->
+<script src="./assets/js/jquery.counterup.min.js"></script>
+<script src="./assets/js/waypoints.min.js"></script>
+<script src="./assets/js/jquery.countdown.min.js"></script>
+<script src="./assets/js/hover-direction-snake.min.js"></script>
 
-    <!-- contact js -->
-    <script src="./assets/js/contact.js"></script>
-    <script src="./assets/js/jquery.form.js"></script>
-    <script src="./assets/js/jquery.validate.min.js"></script>
-    <script src="./assets/js/mail-script.js"></script>
-    <script src="./assets/js/jquery.ajaxchimp.min.js"></script>
+<!-- contact js -->
+<script src="./assets/js/contact.js"></script>
+<script src="./assets/js/jquery.form.js"></script>
+<script src="./assets/js/jquery.validate.min.js"></script>
+<script src="./assets/js/mail-script.js"></script>
+<script src="./assets/js/jquery.ajaxchimp.min.js"></script>
 
-    <!-- Jquery Plugins, main Jquery -->	
-    <script src="./assets/js/plugins.js"></script>
-    <script src="./assets/js/main.js"></script>
+<!-- Jquery Plugins, main Jquery -->	
+<script src="./assets/js/plugins.js"></script>
+<script src="./assets/js/main.js"></script>
 
-  </body>
+<script src="assets/js/language/language-partenaires.js"></script>
+
+</body>
 </html>
